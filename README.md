@@ -1,4 +1,3 @@
-# SDN-Based-Firewall
 # SDN-Based Firewall using Mininet + Ryu
 
 ## Problem Statement
