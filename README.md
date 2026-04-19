@@ -17,7 +17,7 @@ hosts based on IP address, MAC address, and TCP port rules.
 - H1↔H2↔H3: allowed (ping works)
 - H4→any: blocked (IP block rule)
 - any→port 22: blocked (port rule)
-# 🔥 SDN Firewall using Ryu Controller
+# SDN Firewall using Ryu Controller
 
 
 - MAC Address (Layer 2)
@@ -56,7 +56,7 @@ h4 ----/
 
 ---
 
-## 🔒 Firewall Rules
+##  Firewall Rules
 
 ### ICMP Blocking (IP-based)
 Blocks ping (ICMP) traffic to:
@@ -84,7 +84,7 @@ Blocks all traffic involving:
 
 ---
 
-### 3️⃣ TCP Port Blocking
+###  TCP Port Blocking
 Blocks TCP traffic on:
 ```
 Port 22 (SSH)
@@ -138,7 +138,7 @@ sudo python3 topology.py
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### ICMP Blocking
 ```bash
